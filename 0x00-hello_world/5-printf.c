@@ -4,7 +4,7 @@
  * main - Entry point
  *
  * Description: prints "with proper grammer, but the outcome is a piece of 
- * art,"
+ *art,"
  *
  * Return: Always 0 (success)
  */
