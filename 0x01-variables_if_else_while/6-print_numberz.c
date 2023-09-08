@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - print 0-9 of base 10 number
+ * main -  print single digits of base 10 starting from 0
  *
  * Description: print single digits of base 10 starting from 0
  *
@@ -10,15 +10,15 @@
 
 int main(void)
 {
-        int i = 48;
+	int i = 48;
 
-        while (i < 58)
-        {
-                putchar(i);
-                i++;
-        }
+	while (i < 58)
+	{
+		putchar(i);
+		i++;
+	}
 
-        putchar(10);
+	putchar(10);
 
-        return (0);
+	return (0);
 }
