@@ -12,12 +12,12 @@ int main(void)
 {
 	int i = 0;
 
-	while (i < 48)
+	while (i < 16)
 	{
 		if (i < 10)
-			putchar(i + '0');
-		else if (i > 41)
-			putchar(1 - 10 + 'A');
+			putchar('0' + i);
+		else
+			putchar('a' + (i -10));
 		i++;
 	}
 
