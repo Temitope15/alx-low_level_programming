@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * int_abs - prints the absolutr value of n
+ * _abs - prints the absolutr value of n
  *
  * @n: the number to convert
  *
