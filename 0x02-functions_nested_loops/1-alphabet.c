@@ -8,16 +8,16 @@
 
 int print_alphabet(void)
 {
-	char i = 'a'
+	char i = 'a';
 
 	while (i <= 'z')
 	{
 		_putchar(i);
 
-		i++
+		i++;
 	}
 
 	_putchar('\n');
 
-	return (0);
+	return (0)i;
 }
