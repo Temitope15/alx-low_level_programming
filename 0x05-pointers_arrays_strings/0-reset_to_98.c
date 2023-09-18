@@ -5,7 +5,6 @@
  * the pointer points to to 98
  * @n: the variable to be reduced to
  */
-
 void reset_to_98(int *n)
 {
 	*n = 98;
